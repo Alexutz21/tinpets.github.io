@@ -1,0 +1,243 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #fbffe2;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 20px 3% 0;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.nav-link {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+}
+#title {
+  margin: 0;
+  padding: 0;
+  background-color: #ff4c68;
+}
+/* .stContainer .container {
+  width: 100%;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.firstH1,
+.pricingH2,
+.testimonialsP {
+  font-family: "Montserrat-Black", sans-serif;
+}
+.first-text {
+  text-align: left;
+}
+.firstH1 {
+  width: 70%;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: whitesmoke;
+  margin: 15% 5% 9%;
+}
+@media screen and (min-width: 360px) and (max-width: 968px) {
+  .firstH1 {
+    margin: 12% 10% 12%;
+    width: 77%;
+  }
+}
+/* Apple and Google Btn */
+.apple-btn {
+  margin-left: 4%;
+}
+/*  */
+.apple-btn,
+.google-play-btn {
+  text-decoration: none;
+  color: white;
+  padding: 12px 7px;
+}
+
+.container-fluid {
+  padding: 1% 2% 1%;
+}
+.fab {
+  margin: 5px;
+}
+/* First Img */
+.first-img {
+  margin: 10% 0;
+  border-radius: 59px;
+  transform: rotateY(0deg) rotate(17deg);
+  transition: all 0.5s;
+  position: absolute;
+  right: 25%;
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  #title {
+    text-align: center;
+  }
+  .first-img {
+    position: static;
+    transform: rotateX(17deg);
+  }
+}
+
+.first-img:hover {
+  border-color: #2b2323;
+  box-shadow: 0.6em 0.6em 0.7em 0.3em #343532;
+  color: rgb(0, 0, 0);
+  transform: rotateY(0deg) rotate(-0deg);
+
+  /* translateY(-0.5em); */
+}
+/* 1stContainer */
+.stContainer {
+  padding: 2% 5% 11%;
+}
+.stContainer .container .row {
+  width: auto;
+}
+/* @media screen and (min-width: 375px) and (max-width: 900px) {
+  .stContainer {
+    position: absolute;
+  }
+} */
+/* Feature */
+#features .row .col {
+  margin: 180px 0;
+}
+#features .row .col h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#features .row .col p {
+  color: #8f8f8f;
+  margin-top: 3%;
+}
+#features .row .col i {
+  font-size: 67px;
+  color: #ff4c68;
+  margin: 15px 0;
+}
+#features .row .col i:hover {
+  color: #dd0000;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ff4c68;
+}
+.testimonialsP {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #fff;
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  .testimonialsP {
+    font-size: x-large;
+  }
+}
+#testimonials .testimonial-img {
+  width: 14%;
+  border-radius: 100%;
+  margin: 5% 50%;
+}
+.carousel-item {
+  padding: 7% 7%;
+}
+/* Press */
+#press {
+  background-color: #ff4c68;
+  padding: 77px auto;
+}
+#press .press-logo {
+  width: 65%;
+  padding: 20px 30px;
+  margin: 0 20%;
+}
+
+/* Pricing */
+#pricing {
+  margin: 5% 5%;
+}
+#pricing .pricingH2 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #2b2323;
+}
+.plan h3 {
+  color: #2b2323;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+#pricing .plan .row .card-header h3 {
+  color: #2b2323;
+}
+.plan {
+  padding: 20px 0 20px 0;
+  margin-bottom: 7%;
+  /* border: 2px solid #ff4c68;
+  border-radius: 20px;
+  background-color: #ff4c68; */
+  transition: all 0.5s;
+}
+/* Call to Action */
+.before-footer h1 {
+  font-weight: 900;
+  size: 3rem;
+  width: 60%;
+  margin: auto;
+  line-height: 1.5;
+  color: whitesmoke;
+  margin-bottom: 30px;
+}
+
+.before-footer {
+  background-color: #ff4c68;
+  height: 350px;
+  padding: 4%;
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  .before-footer {
+    height: 220px;
+  }
+  .before-footer h1 {
+    font-size: x-large;
+  }
+  .apple-btn .google-play-btn {
+    size: 1rem;
+  }
+}
+/* Footer */
+.footer {
+  background-color: #fbffe2;
+  height: 250px;
+}
+#footer {
+  margin: 7%;
+}
+.footer i {
+  margin: 2.5% 1.5% 1.5%;
+  font-size: 1.5rem;
+}
+.footer i:hover {
+  color: #ff4c68;
+}
+.footer p {
+  padding-bottom: 3%;
+}
+@media screen and (min-width: 300px) and (max-width: 1200px) {
+  .footer {
+    height: 90px;
+  }
+}
